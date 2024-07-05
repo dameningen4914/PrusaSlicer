@@ -33,28 +33,28 @@ msgstr "알 수 없음"
 #: src/libslic3r/ExtrusionRole.cpp:42 src/libslic3r/ExtrusionRole.cpp:63
 #: src/slic3r/GUI/GCodeViewer.cpp:281
 msgid "Perimeter"
-msgstr ""
+msgstr "둘레"
 
 #: src/libslic3r/ExtrusionRole.cpp:43 src/libslic3r/ExtrusionRole.cpp:65
 #: src/slic3r/GUI/GCodeViewer.cpp:282
 msgid "External perimeter"
-msgstr ""
+msgstr "외부둘레"
 
 #: src/libslic3r/ExtrusionRole.cpp:44 src/libslic3r/ExtrusionRole.cpp:67
 #: src/slic3r/GUI/GCodeViewer.cpp:283
 msgid "Overhang perimeter"
-msgstr ""
+msgstr "오버행둘레"
 
 #: src/libslic3r/ExtrusionRole.cpp:45 src/libslic3r/ExtrusionRole.cpp:69
 #: src/slic3r/GUI/GCodeViewer.cpp:284
 msgid "Internal infill"
-msgstr ""
+msgstr "내부 채움"
 
 #: src/libslic3r/ExtrusionRole.cpp:46 src/libslic3r/ExtrusionRole.cpp:71
 #: src/libslic3r/PrintConfig.cpp:1690 src/libslic3r/PrintConfig.cpp:2740
 #: src/libslic3r/PrintConfig.cpp:2752 src/slic3r/GUI/GCodeViewer.cpp:285
 msgid "Solid infill"
-msgstr "솔리드 인필"
+msgstr "솔리드 채움"
 
 #: src/libslic3r/ExtrusionRole.cpp:47 src/libslic3r/ExtrusionRole.cpp:73
 #: src/libslic3r/PrintConfig.cpp:1699 src/libslic3r/PrintConfig.cpp:3330
@@ -69,12 +69,12 @@ msgstr "가장 윗부분 채움"
 #: src/slic3r/GUI/GCodeViewer.cpp:287 src/slic3r/GUI/GUI_Factories.cpp:161
 #: src/slic3r/GUI/Tab.cpp:1485
 msgid "Ironing"
-msgstr ""
+msgstr "다림질"
 
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 #: src/slic3r/GUI/GCodeViewer.cpp:288
 msgid "Bridge infill"
-msgstr ""
+msgstr "브릿지 채움"
 
 #: src/libslic3r/ExtrusionRole.cpp:50 src/libslic3r/ExtrusionRole.cpp:79
 #: src/libslic3r/PrintConfig.cpp:1611 src/slic3r/GUI/GCodeViewer.cpp:289
@@ -84,7 +84,7 @@ msgstr "공백 채움"
 #: src/libslic3r/ExtrusionRole.cpp:51 src/libslic3r/ExtrusionRole.cpp:81
 #: src/slic3r/GUI/GCodeViewer.cpp:290
 msgid "Skirt/Brim"
-msgstr ""
+msgstr "스커트/브림림"
 
 #: src/libslic3r/ExtrusionRole.cpp:52 src/libslic3r/ExtrusionRole.cpp:83
 #: src/libslic3r/PrintConfig.cpp:909 src/libslic3r/PrintConfig.cpp:2406
@@ -145,7 +145,9 @@ msgid ""
 "The 3MF file does not contain a valid mesh.\n"
 "\n"
 "\"%1%\""
-msgstr ""
+msgstr "3MF파일에 유효한 메쉬가 포함되어 있지 않습니다.\n"
+"\n"
+"\"%1%\""
 
 #: src/libslic3r/Format/3mf.cpp:2094
 #, boost-format
@@ -158,7 +160,7 @@ msgstr "선택한 3mf 파일은 %1%의 최신 버전으로 저장되었으며 �
 msgid ""
 "The selected 3MF contains FDM supports painted object using a newer version "
 "of PrusaSlicer and is not compatible."
-msgstr ""
+msgstr "선택한 3MF에는 최신 버전의 PrusaSlicer를 사용하여 페인팅된 개체를 지원하는 FDM이 포함되어 있으며 호환되지 않습니다."
 
 #: src/libslic3r/Format/3mf.cpp:2109
 msgid ""
